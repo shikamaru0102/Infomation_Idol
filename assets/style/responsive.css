@@ -1,0 +1,16 @@
+
+/* mobile */
+
+@media (max-width: 768px){
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .category::after,
+    .contain-video,
+    .logo {
+        display: none;
+    }
+
+    
+}

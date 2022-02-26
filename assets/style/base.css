@@ -1,0 +1,41 @@
+
+/* define any color for website */
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #eb8383;
+    --red-color: red;
+}
+
+/* set box-sizing for website */
+/*  box-sizing: khi chúng ta chỉnh height, width thì chỉ tác động nên contents. 
+    Điều này thì sẽ làm tăng kích thước của content khi chúng ta sử dụng 
+    các thuộc tính border, margin, padding.
+    mặc định
+    box-sizing: content-box;
+    box-sizing: border-box; giúp tính toán kích thước mặc định cho cả phần tử
+    khi ta thêm border, margin, padding thì kích thước phần tử tự điều
+    chỉnh sao cho vẫn giữ nguyên height, width của phần tử ban đầu.
+
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+/* font-size mặc định là 16px */
+/* 
+    Tính theo fz mặc định thì 1 rem = 16px;
+*/
+
+html {
+    font-size: 62.5%;
+    line-height: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
